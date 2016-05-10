@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Наименования на русском языке-->
+<resources>
+    <!--Название приложения-->
+    <string name="appName">Студент</string>
+    <!--Заголовок окна авторизации-->
+    <string name="authActivityTitle">Вход</string>
+    <!--Регистрация-->
+    <string name="registration">Регистрация</string>
+    <!--Регистрационная форма-->
+        <!--Имя пользователя-->
+        <string name="user_name">Имя пользователя</string>
+        <!--Плейсхолдер ввода имени-->
+        <string name="user_name_placeholder">введите имя пользователя</string>
+        <!--Номер телефона-->
+        <string name="user_tel_n">Номер телефона</string>
+        <!--Плейсхолдер номера телефона-->
+        <string name="user_tel_n_placeholder">+7 XXXXXXXXXX</string>
+        <!--Город пользователя-->
+        <string name="user_city">Город</string>
+        <!--Кнопка зарегистрироваться-->
+        <string name="reg_submit_button">Зарегистрироваться</string>
+    <!--//Регистрационная форма-->
+</resources>

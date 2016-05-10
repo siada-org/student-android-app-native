@@ -8,6 +8,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity
+            android:name=".StartActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthActivity"
+            android:label="@string/authActivityTitle">
+        </activity>
+        <activity
+            android:name=".RegActivity"
+            android:label="@string/registration">
+        </activity>
     </application>
-
 </manifest>

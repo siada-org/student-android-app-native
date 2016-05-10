@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_text"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/reg_layout_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.02"
+        android:gravity="center"
+        android:text="@string/registration" />
+
+    <TextView
+        android:id="@+id/reg_layout_username_label"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:hint="@string/user_tel_n" />
+
+    <EditText
+        android:id="@+id/authTelEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:ems="10"
+        android:hint="@string/user_tel_n_placeholder"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_submit_button"
+        android:id="@+id/regSubmitButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02" />
+</LinearLayout>
